@@ -96,6 +96,9 @@ main    {
     /* make main element take up any suprlus space to push footer down */
     flex: 1 0 auto;
     margin-top:47px;
+    /* Enable flex properties for child elements */
+    display:flex;
+    flex-direction: columnl
 }
 
 /* Hero section */
@@ -207,6 +210,12 @@ main    {
 
 #photos {
     line-height: 0;
+}
+
+/* Signup Page */
+
+#signup {
+    background-image: url(../images/signup-image.webp);
 }
 
 /* Footer */
